@@ -29,6 +29,12 @@
  ### and n_columns is the number of features 
  ages       = numpy.reshape( numpy.array(ages), (len(ages), 1)) 
  net_worths = numpy.reshape( numpy.array(net_worths), (len(net_worths), 1)) 
+ 
+ ####Print the num;py array tyoes of ages ad net_worths
+  print ("The numpy array  ages:", ages)
+ print ("The numpy arra net_worths:", net_worths)
+ 
+ 
  from sklearn.cross_validation import train_test_split 
  ages_train, ages_test, net_worths_train, net_worths_test = train_test_split(ages, net_worths, test_size=0.1, random_state=42) 
  
