@@ -16,7 +16,9 @@
  ages = pickle.load( open("practice_outliers_ages.pkl", "r") ) 
  net_worths = pickle.load( open("practice_outliers_net_worths.pkl", "r") ) 
  
- 
+ #### Printing the ages and net_worths to see how the loaded pickle file looks lik
+ print ("The pickle loaded ages:", ages)
+ print ("The pickle loaded net_worths:", net_worths)
  
  
  
